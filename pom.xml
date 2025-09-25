@@ -13,7 +13,7 @@
     <version>0.0.1-SNAPSHOT</version>
     <name>docs-atlassian-remote</name>
     <description>ONLYOFFICE Docs integration remote service with Atlassian</description>
-    <url>https://github.com/ONLYOFFICE/onlyoffice-jira-cloud</url>
+    <url>https://github.com/ONLYOFFICE/docs-atlassian-remote</url>
     <licenses>
         <license>
             <name>The Apache License, Version 2.0</name>
@@ -28,9 +28,9 @@
         </developer>
     </developers>
     <scm>
-        <connection>scm:git:git@github.com:ONLYOFFICE/onlyoffice-jira-cloud.git</connection>
-        <developerConnection>scm:git:git@github.com:ONLYOFFICE/onlyoffice-jira-cloud.git</developerConnection>
-        <url>https://github.com/ONLYOFFICE/onlyoffice-jira-cloud</url>
+        <connection>scm:git:git@github.com:ONLYOFFICE/docs-atlassian-remote.git</connection>
+        <developerConnection>scm:git:git@github.com:ONLYOFFICE/docs-atlassian-remote.git</developerConnection>
+        <url>https://github.com/ONLYOFFICE/docs-atlassian-remote</url>
     </scm>
     <properties>
         <java.version>21</java.version>
