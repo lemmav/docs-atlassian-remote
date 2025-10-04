@@ -36,7 +36,7 @@ jobs:
 
       - name: Build image
         run: |
-          docker build --no-cache -f docker/Dockerfile -t ${REGISTRY}/${IMAGE_NAME}:${TAG} . || echo "BUILD_FAILED=true" >> $GITHUB_ENV
+          docker build --no-cache -f Dockerfile -t ${REGISTRY}/${IMAGE_NAME}:${TAG} . || echo "BUILD_FAILED=true" >> $GITHUB_ENV
 
       - name: Push image
         run: |
